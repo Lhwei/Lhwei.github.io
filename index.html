@@ -5,12 +5,21 @@
   j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
   })(window,document,'script','dataLayer','GTM-584DK84');</script>
-
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-179248815-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('set', {'user_id': 'USER_ID'}); // 使用已登入的 user_id 設定 User ID。
+  gtag('config', 'UA-179248815-2');
+</script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-F21558TXPM"></script>
 <script>
    window.dataLayer = window.dataLayer || [];
    function gtag(){dataLayer.push(arguments);}
    gtag('js', new Date());
+   gtag('set', {'user_id': 'USER_ID'}); // 使用已登入的 user_id 設定 User ID。
 
    gtag('config', 'G-F21558TXPM');
 </script>
@@ -39,6 +48,7 @@
   }
   if (typeof ga === "function") {
     ga('create', 'G-F21558TXPM', 'auto', {});
+    ga('set', 'userId', 'USER_ID'); // 使用已登入的 user_id 設定 User ID。
     ga('require','displayfeatures');
     ga('send', 'pageview');
     ga('send', 'event');
