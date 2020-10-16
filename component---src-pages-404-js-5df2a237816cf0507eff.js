@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{w2l6:function(n,s,j){"use strict";j.r(s);j("nKUr"),j("q1tI");var l=j("dH/O"),t=j("noox"),e=j("WsIH"),c=j("gZs9"),b=j("qKvR");s.default=function(){return Object(b.jsx)(l.a,null,Object(b.jsx)(e.a,null),Object(b.jsx)(t.a,null,Object(b.jsx)("div",{style:{marginTop:"100px"}},Object(b.jsx)(c.a.h1,null,Object(b.jsx)("span",{role:"img"},"⛔"),"可能走錯路囉！",Object(b.jsx)("br",null),Object(b.jsx)("br",null),"請按左上角 Logo 返回首頁吧。"))))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-5df2a237816cf0507eff.js.map
